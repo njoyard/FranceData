@@ -20,10 +20,10 @@ setup(
     license='MIT',
     keywords='france',
     install_requires=[
+        'lxml==3.4.4',
+        'scrapy',
+        'static'
     ],
-    extras_require={
-        'Scrap online data': 'scrapy',
-    },
     classifiers=[
         'Development Status :: 1 - Alpha/Planning',
         'Environment :: Web Environment',
